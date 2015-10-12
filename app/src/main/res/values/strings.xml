@@ -5,4 +5,8 @@
     <string name="action_settings">Settings</string>
     <string name="SetMest">Запомнить место</string>
     <string name="Title">Помощник грибника</string>
+    <string name="FindMesto">Найти грибное место</string>
+    <string name="SaveForestEnter">Запомнить место входа в лес</string>
+    <string name="LoadForestEnter">Найти выход из леса</string>
+    <string name="Spr">Справочник по грибам</string>
 </resources>

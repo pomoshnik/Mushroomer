@@ -6,22 +6,6 @@
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
     android:background="@drawable/fon1">
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:drawableLeft="@drawable/setmesto"
-        android:background="@drawable/buttonstyle"
-        android:text="@string/SetMest"
-        android:id="@+id/button"
-        android:textSize="20sp"
-        android:textColor="#ffd591"
-        android:textStyle="bold"
-        android:layout_marginTop="30dp"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentStart="true" />
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -37,12 +21,74 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button2"
-        android:layout_below="@+id/button"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="45dp"
-        android:background="@drawable/buttonstyle"/>
+        android:drawableLeft="@drawable/setmesto"
+        android:background="@drawable/buttonstyle"
+        android:text="@string/SetMest"
+        android:id="@+id/btSetMesto"
+        android:textSize="20sp"
+        android:textColor="#ffd591"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/setmesto"
+        android:text="@string/FindMesto"
+        android:id="@+id/btLoadMesto"
+        android:textSize="20sp"
+        android:textColor="#ffd591"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttonstyle"
+        android:layout_below="@+id/btSetMesto"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/setmesto"
+        android:text="@string/SaveForestEnter"
+        android:id="@+id/btSaveFores"
+        android:textSize="20sp"
+        android:textColor="#ffd591"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttonstyle"
+        android:layout_below="@+id/btLoadMesto"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/setmesto"
+        android:text="@string/LoadForestEnter"
+        android:id="@+id/btLoadForest"
+        android:textSize="20sp"
+        android:textColor="#ffd591"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttonstyle"
+        android:layout_below="@+id/btSaveFores"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/setmesto"
+        android:text="@string/Spr"
+        android:id="@+id/btSpr"
+        android:textSize="20sp"
+        android:textColor="#ffd591"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttonstyle"
+        android:layout_below="@+id/btLoadForest"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>
