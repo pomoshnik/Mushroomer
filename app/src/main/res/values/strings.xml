@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mushroomer</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="SetMest">Запомнить место</string>
+    <string name="Title">Помощник грибника</string>
+</resources>
