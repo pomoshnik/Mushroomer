@@ -10,4 +10,8 @@
     <string name="LoadForestEnter">Найти выход из леса</string>
     <string name="Spr">Справочник по грибам</string>
     <string name="title_activity_add_mesto">AddMestoActivity</string>
+
+    <string name="title_activity_find_mest">FindMestActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>
