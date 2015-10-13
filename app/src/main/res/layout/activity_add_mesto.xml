@@ -12,36 +12,36 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Информация о грибном месте"
-        android:id="@+id/textView2"
+        android:id="@+id/textTitle"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:textColor="#c6a72c"
         android:padding="5dp" />
 
+    <TextView
+        android:text="Введите название"
+        android:id="@+id/textName"
+        android:layout_below="@id/textTitle"
+        style="@style/textInput" />
+
+
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/editText"
-        android:textColor="#d8c623"
-        android:layout_below="@+id/textView3"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:background="#94000000"
+        android:id="@+id/editName"
         android:text="Опята"
-        android:paddingTop="5dp"
-        android:paddingBottom="5dp"
-        android:paddingLeft="5dp" />
+        android:layout_below="@id/textName"
+        style="@style/editInput" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Введите название"
-        android:id="@+id/textView3"
-        android:layout_below="@+id/textView2"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="25dp"
-        android:textColor="#e7dfcf" />
+        android:text="Дата сбора"
+        android:id="@+id/textDate"
+        android:layout_below="@id/editName"
+        style="@style/textInput" />
+
+    <EditText
+        android:id="@+id/editDate"
+        android:text="13/08/2015"
+        android:layout_below="@id/textDate"
+        style="@style/editInput" />
 
 </RelativeLayout>
