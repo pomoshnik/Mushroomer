@@ -12,11 +12,11 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/Title"
         android:id="@+id/textView"
-        android:textColor="#84f8ff"
+        android:textColor="#ffd591"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:textStyle="bold"
-        android:textSize="25dp" />
+        android:textSize="35dp" />
 
     <Button
         android:layout_width="match_parent"
