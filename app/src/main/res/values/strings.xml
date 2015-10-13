@@ -9,4 +9,5 @@
     <string name="SaveForestEnter">Запомнить место входа в лес</string>
     <string name="LoadForestEnter">Найти выход из леса</string>
     <string name="Spr">Справочник по грибам</string>
+    <string name="title_activity_add_mesto">AddMestoActivity</string>
 </resources>
